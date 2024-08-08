@@ -28,5 +28,5 @@ app.register(getUserInProgressClock)
 app.register(getAllUsers)
 
 app.listen({ port: process.env.PORT }).then(() => {
-  console.log(`server running on ${process.env.API_BASE_URL}`)
+  console.log(`server running`)
 })
